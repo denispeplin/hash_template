@@ -14,6 +14,9 @@ gem install hash_template
 ## Example
 
 ```ruby
+require 'hash_template'
+require 'pp'
+
 data = {
   address: 'milton.waddams@initech.com',
   password: 'No salt',
