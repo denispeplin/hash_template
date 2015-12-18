@@ -1,3 +1,6 @@
+[![Gem Version](https://fury-badge.herokuapp.com/rb/hash_template.png)](http://badge.fury.io/rb/hash_template)
+[![Build Status](https://api.travis-ci.org/denispeplin/hash_template.png?branch=master)](http://travis-ci.org/denispeplin/hash_template)
+
 ## hash_template
 
 Transform a flat hash to a structured hash using template.
