@@ -53,10 +53,10 @@ describe HashTemplate do
   end
 
   describe '#map' do
-    subject { described_class.new data }
+    subject { described_class.new mapping }
 
     specify do
-      expect(subject.map mapping).to eq(output)
+      expect(subject.map data).to eq(output)
     end
   end
 end

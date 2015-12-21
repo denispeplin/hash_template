@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    hash_template (0.1)
+    hash_template (1.0)
 
 GEM
   remote: https://rubygems.org/

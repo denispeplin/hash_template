@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'hash_template'
-  s.version     = '0.1'
+  s.version     = '1.0'
   s.date        = Date.today
   s.summary     = 'Transform a flat hash to a structured hash using template.'
   s.description = s.summary

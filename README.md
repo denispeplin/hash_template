@@ -42,10 +42,10 @@ mapping = {
     }
   ],
   includeInGlobalAddressList: '!privacy',
-  orgUnitPath: 'org_unit_path' # just to check plain strings
+  orgUnitPath: 'org_unit_path'
 }
 
-pp HashTemplate.new(data).map(mapping)
+pp HashTemplate.new(mapping).map(data)
 #{
 #  primaryEmail: 'milton.waddams@initech.com',
 #  password: 'No salt',
